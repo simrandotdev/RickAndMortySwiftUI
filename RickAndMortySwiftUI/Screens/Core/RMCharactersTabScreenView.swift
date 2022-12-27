@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct RMCharactersTabViewScreen: View {
+
+/// ScreenView to show and search for Characters
+struct RMCharactersTabScreenView: View {
     var body: some View {
         VStack {
             
@@ -18,6 +20,6 @@ struct RMCharactersTabViewScreen: View {
 
 struct CharactersTabScreen_Previews: PreviewProvider {
     static var previews: some View {
-        RMCharactersTabViewScreen()
+        RMCharactersTabScreenView()
     }
 }

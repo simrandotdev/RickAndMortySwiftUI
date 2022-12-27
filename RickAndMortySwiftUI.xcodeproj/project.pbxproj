@@ -8,25 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		3DEB9738295B60E100F1D05F /* RickAndMortySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB9737295B60E100F1D05F /* RickAndMortySwiftUIApp.swift */; };
-		3DEB973A295B60E100F1D05F /* RMTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB9739295B60E100F1D05F /* RMTabViewScreen.swift */; };
+		3DEB973A295B60E100F1D05F /* RMTabsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB9739295B60E100F1D05F /* RMTabsScreenView.swift */; };
 		3DEB973C295B60E200F1D05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB973B295B60E200F1D05F /* Assets.xcassets */; };
 		3DEB973F295B60E200F1D05F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB973E295B60E200F1D05F /* Preview Assets.xcassets */; };
-		3DEB974E295B617600F1D05F /* RMCharactersTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB974D295B617600F1D05F /* RMCharactersTabViewScreen.swift */; };
-		3DEB9750295B618A00F1D05F /* RMLocationTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB974F295B618A00F1D05F /* RMLocationTabViewScreen.swift */; };
-		3DEB9752295B619700F1D05F /* RMEpisodesTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB9751295B619700F1D05F /* RMEpisodesTabViewScreen.swift */; };
-		3DEB9755295B61AC00F1D05F /* RMSettingsTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB9754295B61AC00F1D05F /* RMSettingsTabViewScreen.swift */; };
+		3DEB974E295B617600F1D05F /* RMCharactersTabScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB974D295B617600F1D05F /* RMCharactersTabScreenView.swift */; };
+		3DEB9750295B618A00F1D05F /* RMLocationTabScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB974F295B618A00F1D05F /* RMLocationTabScreenView.swift */; };
+		3DEB9752295B619700F1D05F /* RMEpisodesTabScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB9751295B619700F1D05F /* RMEpisodesTabScreenView.swift */; };
+		3DEB9755295B61AC00F1D05F /* RMSettingsTabScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB9754295B61AC00F1D05F /* RMSettingsTabScreenView.swift */; };
+		3DEB975D295B655000F1D05F /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB975C295B655000F1D05F /* RMEndpoint.swift */; };
+		3DEB975F295B656000F1D05F /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB975E295B656000F1D05F /* RMRequest.swift */; };
+		3DEB9761295B656C00F1D05F /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB9760295B656C00F1D05F /* RMService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DEB9734295B60E100F1D05F /* RickAndMortySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEB9737295B60E100F1D05F /* RickAndMortySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortySwiftUIApp.swift; sourceTree = "<group>"; };
-		3DEB9739295B60E100F1D05F /* RMTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTabViewScreen.swift; sourceTree = "<group>"; };
+		3DEB9739295B60E100F1D05F /* RMTabsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTabsScreenView.swift; sourceTree = "<group>"; };
 		3DEB973B295B60E200F1D05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DEB973E295B60E200F1D05F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3DEB974D295B617600F1D05F /* RMCharactersTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharactersTabViewScreen.swift; sourceTree = "<group>"; };
-		3DEB974F295B618A00F1D05F /* RMLocationTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationTabViewScreen.swift; sourceTree = "<group>"; };
-		3DEB9751295B619700F1D05F /* RMEpisodesTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodesTabViewScreen.swift; sourceTree = "<group>"; };
-		3DEB9754295B61AC00F1D05F /* RMSettingsTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsTabViewScreen.swift; sourceTree = "<group>"; };
+		3DEB974D295B617600F1D05F /* RMCharactersTabScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharactersTabScreenView.swift; sourceTree = "<group>"; };
+		3DEB974F295B618A00F1D05F /* RMLocationTabScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationTabScreenView.swift; sourceTree = "<group>"; };
+		3DEB9751295B619700F1D05F /* RMEpisodesTabScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodesTabScreenView.swift; sourceTree = "<group>"; };
+		3DEB9754295B61AC00F1D05F /* RMSettingsTabScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsTabScreenView.swift; sourceTree = "<group>"; };
+		3DEB975C295B655000F1D05F /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		3DEB975E295B656000F1D05F /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
+		3DEB9760295B656C00F1D05F /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,9 @@
 		3DEB974A295B611F00F1D05F /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				3DEB975C295B655000F1D05F /* RMEndpoint.swift */,
+				3DEB975E295B656000F1D05F /* RMRequest.swift */,
+				3DEB9760295B656C00F1D05F /* RMService.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -134,11 +143,11 @@
 		3DEB974C295B613300F1D05F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3DEB9739295B60E100F1D05F /* RMTabViewScreen.swift */,
-				3DEB974D295B617600F1D05F /* RMCharactersTabViewScreen.swift */,
-				3DEB974F295B618A00F1D05F /* RMLocationTabViewScreen.swift */,
-				3DEB9751295B619700F1D05F /* RMEpisodesTabViewScreen.swift */,
-				3DEB9754295B61AC00F1D05F /* RMSettingsTabViewScreen.swift */,
+				3DEB9739295B60E100F1D05F /* RMTabsScreenView.swift */,
+				3DEB974D295B617600F1D05F /* RMCharactersTabScreenView.swift */,
+				3DEB974F295B618A00F1D05F /* RMLocationTabScreenView.swift */,
+				3DEB9751295B619700F1D05F /* RMEpisodesTabScreenView.swift */,
+				3DEB9754295B61AC00F1D05F /* RMSettingsTabScreenView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -213,12 +222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DEB974E295B617600F1D05F /* RMCharactersTabViewScreen.swift in Sources */,
-				3DEB973A295B60E100F1D05F /* RMTabViewScreen.swift in Sources */,
+				3DEB974E295B617600F1D05F /* RMCharactersTabScreenView.swift in Sources */,
+				3DEB973A295B60E100F1D05F /* RMTabsScreenView.swift in Sources */,
+				3DEB975F295B656000F1D05F /* RMRequest.swift in Sources */,
 				3DEB9738295B60E100F1D05F /* RickAndMortySwiftUIApp.swift in Sources */,
-				3DEB9755295B61AC00F1D05F /* RMSettingsTabViewScreen.swift in Sources */,
-				3DEB9752295B619700F1D05F /* RMEpisodesTabViewScreen.swift in Sources */,
-				3DEB9750295B618A00F1D05F /* RMLocationTabViewScreen.swift in Sources */,
+				3DEB9755295B61AC00F1D05F /* RMSettingsTabScreenView.swift in Sources */,
+				3DEB9752295B619700F1D05F /* RMEpisodesTabScreenView.swift in Sources */,
+				3DEB975D295B655000F1D05F /* RMEndpoint.swift in Sources */,
+				3DEB9750295B618A00F1D05F /* RMLocationTabScreenView.swift in Sources */,
+				3DEB9761295B656C00F1D05F /* RMService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

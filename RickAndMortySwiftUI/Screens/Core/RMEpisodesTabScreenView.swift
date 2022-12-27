@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct RMEpisodesTabViewScreen: View {
+/// ScreenView to show and search for Episodes
+struct RMEpisodesTabScreenView: View {
     var body: some View {
         VStack {
             
@@ -18,6 +19,6 @@ struct RMEpisodesTabViewScreen: View {
 
 struct RMEpisodesTabViewScreen_Previews: PreviewProvider {
     static var previews: some View {
-        RMEpisodesTabViewScreen()
+        RMEpisodesTabScreenView()
     }
 }

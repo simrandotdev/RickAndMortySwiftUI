@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct RMLocationTabViewScreen: View {
+/// ScreenView to show and search for Locations
+struct RMLocationTabScreenView: View {
     var body: some View {
         VStack {
             
@@ -18,6 +19,6 @@ struct RMLocationTabViewScreen: View {
 
 struct RMLocationTabScreen_Previews: PreviewProvider {
     static var previews: some View {
-        RMLocationTabViewScreen()
+        RMLocationTabScreenView()
     }
 }

@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct RMTabViewScreen: View {
+struct RMTabsScreenView: View {
     var body: some View {
         TabView {
             NavigationStack {
-                RMCharactersTabViewScreen()
+                RMCharactersTabScreenView()
             }
             .tabItem({
                 Label("Characters", systemImage: "person")
@@ -19,7 +19,7 @@ struct RMTabViewScreen: View {
             
             
             NavigationStack {
-                RMLocationTabViewScreen()
+                RMLocationTabScreenView()
             }
             .tabItem({
                 Label("Locations", systemImage: "globe")
@@ -27,7 +27,7 @@ struct RMTabViewScreen: View {
             
             
             NavigationStack {
-                RMEpisodesTabViewScreen()
+                RMEpisodesTabScreenView()
             }
             .tabItem({
                 Label("Episodes", systemImage: "tv")
@@ -35,7 +35,7 @@ struct RMTabViewScreen: View {
             
             
             NavigationStack {
-                RMSettingsTabViewScreen()
+                RMSettingsTabScreenView()
             }
             .tabItem({
                 Label("Settings", systemImage: "gear")
@@ -46,6 +46,6 @@ struct RMTabViewScreen: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        RMTabViewScreen()
+        RMTabsScreenView()
     }
 }

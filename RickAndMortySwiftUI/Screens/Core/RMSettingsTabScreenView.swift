@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct RMSettingsTabViewScreen: View {
+/// ScreenView to handle different app settings
+struct RMSettingsTabScreenView: View {
     var body: some View {
         VStack {
             
@@ -19,6 +20,6 @@ struct RMSettingsTabViewScreen: View {
 
 struct RMSettingsTabScreen_Previews: PreviewProvider {
     static var previews: some View {
-        RMSettingsTabViewScreen()
+        RMSettingsTabScreenView()
     }
 }
